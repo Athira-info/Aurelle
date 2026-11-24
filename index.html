@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AURELLE | Time, sculpted to perfection.</title>
+  <meta name="description" content="AURELLE luxury watches for men and women. Time, sculpted to perfection." />
+  <meta name="theme-color" content="#0A0A0B" />
+  <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/src/css/main.css" />
+  <script type="module" src="/src/js/main.js"></script>
+</head>
+<body class="is-loading">
+
+  <div class="preloader" aria-hidden="true">
+    <span class="preloader__mark">AURELLE</span>
+    <span class="preloader__line"></span>
+  </div>
+  <div class="curtain" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" data-nav>
+    <div class="nav__bar">
+      <nav class="nav__side" aria-label="Primary">
+        <div class="nav__item" data-mega>
+          <button class="nav__link" aria-expanded="false" aria-controls="mega-collections">Collections</button>
+          <div class="mega" id="mega-collections">
+            <a class="mega__link" href="#men">Men</a>
+            <a class="mega__link" href="#women">Women</a>
+            <a class="mega__link" href="#collection">All watches</a>
+          </div>
+        </div>
+        <a class="nav__link" href="#craft">Our Story</a>
+      </nav>
+
+      <a class="nav__logo" href="/" aria-label="AURELLE home">AURELLE</a>
+
+      <div class="nav__side nav__side--end">
+        <button class="nav__link nav__icon" data-open="search" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+        </button>
+        <a class="nav__link nav__icon nav__account" href="#newsletter" aria-label="Account">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4-6.5 8-6.5s7 2 8 6.5"/></svg>
+        </a>
+        <button class="nav__link nav__icon" data-open="cart" aria-label="Shopping bag, 0 items">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="nav__badge" data-cart-count hidden>0</span>
+        </button>
+        <button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Mobile">
+      <a href="#men">Men</a>
+      <a href="#women">Women</a>
+      <a href="#collection">All watches</a>
+      <a href="#craft">Our Story</a>
+    </nav>
+    <p class="mobile-menu__note">Time, sculpted to perfection.</p>
+  </div>
+
+  <main id="main">
+<section class="hero" id="top"><canvas class="hero__canvas" aria-label="Rotating 3D AURELLE watch"></canvas>
+<div class="hero__copy"><h1 class="display">Time, sculpted<br>to perfection.</h1><p class="lede">Watches for men and women, finished by hand in one atelier.</p><a class="btn" href="#collection">Discover the collection</a></div></section>
+
+<section class="sec" id="men">
+  <div class="split"><div class="split__intro">
+    <h2>For him</h2><p class="lede">Broad cases, deep dials and quiet confidence.</p>
+    <div class="ph" data-ph="">
+
+    </div>
+  </div>
+  <div class="rail" data-rail="men">
+
+  </div>
+</div>
+</section>
+<section class="sec" id="women">
+  <div class="split split--rev">
+    <div class="split__intro">
+      <h2>For her</h2>
+      <p class="lede">Slim profiles, softer light and the same exacting finish.</p>
+      <div class="ph" data-ph="">
+
+      </div>
+    </div>
+    <div class="rail" data-rail="women">
+
+    </div>
+  </div>
+</section>
+
+<section class="show" id="showcase"><div class="show__stage"><canvas class="show__canvas" aria-label="Interactive 3D watch, scroll or drag to rotate"></canvas>
+<div class="show__panel"><h2>The Aurelle Meridian</h2><p class="show__cap" aria-live="polite">The case, polished and brushed by hand.</p>
+<div class="finish" role="group" aria-label="Finish"><button data-finish="gold" aria-pressed="true">Champagne gold</button><button data-finish="steel" aria-pressed="false">Steel</button><button data-finish="black" aria-pressed="false">Black</button></div>
+<dl class="specs"><div><dt>Movement</dt><dd>Automatic, 72 hour reserve</dd></div><div><dt>Case</dt><dd>40 mm, sapphire crystal</dd></div><div><dt>Water resistance</dt><dd>100 m</dd></div></dl>
+<button class="btn" data-add="1">Add to bag, $8,400</button></div></div></section>
+
+<section class="sec craft" id="craft">
+  <div class="container">
+    <h2>Made slowly, on purpose.</h2>
+    <p class="lede">Every AURELLE is assembled, regulated and finished by a single watchmaker. No piece leaves until it keeps time to within two seconds a day.</p>
+<div class="stats">
+  <div><b data-count="412">0</b><span>parts in each movement</span>
+  </div>
+  <div>
+    <b data-count="72">0</b><span>hours of finishing</span>
+  </div>
+  <div><b data-count="1">0</b><span>watchmaker per piece</span>
+  </div>
+</div>
+<div class="ph ph--wide" data-ph="Workshop macro photograph">
+
+</div>
+</div>
+</section>
+
+<section class="sec" id="collection"><div class="container"><h2>The collection</h2>
+<div class="filters"><div role="group" aria-label="Gender"><button data-g="all" aria-pressed="true">All</button><button data-g="men" aria-pressed="false">Men</button><button data-g="women" aria-pressed="false">Women</button></div>
+<label>Material <select id="mat"><option value="all">Any</option><option>Gold</option><option>Steel</option><option>Black</option></select></label>
+<label>Search <input id="q" type="search" placeholder="Name or collection"></label></div>
+<div class="grid" id="grid"></div></div></section>
+
+<section class="sec news" id="newsletter"><div class="container"><h2>Receive the private list.</h2><p class="lede">New pieces and atelier notes, a few times a year.</p>
+<form id="nl" novalidate><label class="sr" for="em">Email</label><input id="em" type="email" placeholder="Your email address" required><button class="btn">Subscribe</button><p id="nlmsg" role="status"></p></form></div></section>
+</main>
+
+<footer class="foot"><div class="container"><div class="foot__cols"><div><h3>Collections</h3><a href="#men">Men</a><a href="#women">Women</a><a href="#collection">All watches</a></div><div><h3>Atelier</h3><a href="#craft">Our story</a><a href="#showcase">The Meridian</a></div><div><h3>Client care</h3><a href="#newsletter">Contact</a><a href="#newsletter">Shipping</a></div><div><h3>Legal</h3><a href="#top">Privacy</a><a href="#top">Terms</a></div></div>
+<p class="foot__mark">AURELLE</p>
+
+<p class="foot__fine">
+  &copy; 2026 AURELLE. ALL RIGHTS RESERVED. |
+  Designed by
+  <a href="arc_and__pixel16_" target="_blank" rel="noopener noreferrer">ARC &amp; PIXEL</a>
+</p>
+</div>
+</footer>
+
+<aside class="drawer" id="drawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer__head"><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></div><div class="drawer__items" id="items"></div>
+<div class="drawer__foot"><p class="sub">Subtotal <b id="sub">$0</b></p><button class="btn" id="co">Checkout (demo)</button><p id="comsg" role="status"></p></div></aside>
+<dialog id="search" class="dlg"><form method="dialog"><button class="dlg__x" aria-label="Close">Close</button></form><input id="sq" type="search" placeholder="Search watches" aria-label="Search watches"><div class="grid grid--s" id="sres"></div></dialog>
+<dialog id="detail" class="dlg"><form method="dialog"><button class="dlg__x" aria-label="Close">Close</button></form><div id="dbody"></div></dialog>
+<script>
+  /* Failsafe: if the app script fails to load, do not leave a black screen. */
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+      var p = document.querySelector(".preloader");
+      if (p) { console.warn("[AURELLE] Preloader failsafe fired. Check the console for a script error."); p.remove(); document.body.classList.remove("is-loading"); }
+    }, 8000);
+  });
+</script>
+</body></html>

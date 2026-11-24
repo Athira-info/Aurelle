@@ -1,0 +1,10 @@
+.preloader {
+  position: fixed; inset: 0; z-index: var(--z-preloader); background: var(--obsidian);
+  display: grid; place-content: center; justify-items: center; gap: 1.25rem;
+}
+.preloader__mark { font-family: var(--font-serif); font-size: clamp(1.75rem, 4vw, 2.75rem); letter-spacing: 0.5em; padding-left: 0.5em; opacity: 0; }
+.preloader__line { width: min(14rem, 50vw); height: 1px; background: var(--gold); transform: scaleX(0); }
+.curtain {
+  position: fixed; inset: 0; z-index: var(--z-curtain); background: var(--charcoal);
+  clip-path: inset(100% 0 0 0); pointer-events: none;
+}
